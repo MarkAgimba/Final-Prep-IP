@@ -1,0 +1,29 @@
+.player-console {
+  display: none;
+}
+body{
+  font-size: 15px;
+  font-family:sans-serif;
+  font-style: oblique;
+  background-color: white;
+}
+.body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.p{
+  font-size: 30px;
+  font-style: italic;
+  font-family: cursive;
+}
+.h5{
+  font-size: 10px;
+  font-style: normal;
+  font-family: sans-serif;
+}
+.h6{
+  font-size: 10px;
+  font-style: oblique;
+  font-family: cursive;
+}

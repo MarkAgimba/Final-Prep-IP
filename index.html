@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice Game</title>
+  </head>
+  <body>
+
+    <div class="home-page container">
+      <div class="jumbotron">
+        <h1>M.M.A PIG DICE</h1>
+          <form id="player-1">
+            <div class="form-group">
+              <label for="player1Name">Player 1 Name:</label>
+              <input required class="player1Name form-control" type="text">
+            </div>
+          </form>
+          <form id="player-2">
+            <div class="form-group">
+              <label for="player2Name">Player 2 Name:</label>
+              <input required class="player2Name form-control" type="text">
+            </div>
+          </form>
+          <button id="start" class="btn-warning btn">Play</button>
+          <h6 style="font-size:4vw">GOODLUCK & ENJOY &#128512;</h6>
+          <img height= 230px; width= 480px; src="img/cnn.jpg">
+      </div>
+    </div>
+
+    <div class="player-console container">
+
+        <div class = "row">
+          <div class="col-md-6">
+            <h2>Player 1: <span id = "player1Name"><span></h2>
+              <button id="player1-roll" class="btn-primary btn">Roll</button>
+              <button id="player1-hold" class="btn-primary btn">Hold</button>
+            <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+            <p>Accumulating Total: <span id="accumulating-total-1"></span></p>
+            <p>Final Score: <span id="final-score-1"></span></p>
+          </div>
+
+        <div class="col-md-6">
+          <h2>Player 2: <span id = "player2Name"><span></h2>
+            <button id="player2-roll" class="btn-primary btn">Roll</button>
+            <button id="player2-hold" class="btn-primary btn">Hold</button>
+            <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+            <p>Accumulating Total: <span id="accumulating-total-2"></span></p>
+            <p>Final Score: <span id="final-score-2"></span></p>
+        </div>
+        </div>
+        <h3><strong><u>Game Play:</u></strong></h3>
+       <p style="color:blue;">On a turn, a player rolls the die repeatedly. The goal is to accumulate as many points as possible, adding up the numbers rolled on the die. However, if a player rolls a 1, the player's turn is over and any points they have accumulated during this turn are forfeited. Rolling a 1 doesn't wipe out your entire score from previous turns, just the total earned during that particular roll.</p>
+       <p style="color:blue;">A player can also choose to hold (stop rolling the die) if they do not want to take a chance of rolling a 1 and losing all of their points from this turn. If the player chooses to hold, all of the points rolled during that turn are added to his or her score.</p>
+       <p style="color:blue;">When a player reaches a total of 100 or more points, the game ends and that player is the winner.</p>
+       <p style="color:blue;"><span class="font-weight-bold">The first player to get 100 is the Winner!</span></p>
+        <img height= 150px; width= 480px; src="img/bdh.jpg">
+        <h5 style="color:navy;">&#169; <u>Copyright 2019 M.M.A</u></h5>
+      </div>
+
+
+
+  </body>
+</html>

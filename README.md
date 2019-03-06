@@ -19,3 +19,13 @@ Any web browser e.g Mozilla Firefox or Google Chrome.
 {HTML, CSS & aND Javascript.}
 
 #Link to live website
+https://markagimba.github.io/Final-Prep-IP/.
+
+#Support and contact details
+{Reach me on my email address "markaguero16@gmail.com" from the site.Hope you find your perusal worthwhile.}
+
+#License
+{MIT}
+
+#Copyright
+M.M.A ©2019

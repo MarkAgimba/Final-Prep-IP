@@ -7,11 +7,6 @@ body{
   font-style: oblique;
   background-color: white;
 }
-.body{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 .p{
   font-size: 30px;
   font-style: italic;

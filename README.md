@@ -12,20 +12,20 @@ A simple dice game I created so as to help us practice and understand better the
 #Setup/Installation Requirements
 Any web browser e.g Mozilla Firefox or Google Chrome.
 
-#Known Issues
+Known Issues
 {No issues detected}
 
-#Technologies Used
-{HTML, CSS & aND Javascript.}
+Technologies Used
+{HTML, CSS & Javascript.}
 
-#Link to live website
+Link to live website
 https://markagimba.github.io/Final-Prep-IP/.
 
-#Support and contact details
+Support and contact details
 {Reach me on my email address "markaguero16@gmail.com" from the site.Hope you find your perusal worthwhile.}
 
-#License
+License
 {MIT}
 
-#Copyright
+Copyright
 M.M.A ©2019
